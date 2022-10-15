@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd106f65.css",
-    "main.js": "/static/js/main.d8052f64.js",
-    "index.html": "/index.html",
-    "main.cd106f65.css.map": "/static/css/main.cd106f65.css.map",
-    "main.d8052f64.js.map": "/static/js/main.d8052f64.js.map"
+    "main.css": "/product-input-tool/static/css/main.cd106f65.css",
+    "main.js": "/product-input-tool/static/js/main.d8052f64.js",
+    "index.html": "/product-input-tool/index.html",
+    "main.cd106f65.css.map": "/product-input-tool/static/css/main.cd106f65.css.map",
+    "main.d8052f64.js.map": "/product-input-tool/static/js/main.d8052f64.js.map"
   },
   "entrypoints": [
     "static/css/main.cd106f65.css",
