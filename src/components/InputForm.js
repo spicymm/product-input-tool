@@ -112,7 +112,21 @@ function InputForm({ DASHBOARD_RESPONSE, PRODUCT_RESPONSE, STORED_PRODUCTS }) {
     let key = productFullName.trim();
     key = key.replaceAll(" ", "_");
     key = key + dashboardName;
+    key = convertProductNameStringToVariableSafe(key);
     return key.toUpperCase();
+  }
+
+  function convertProductNameStringToVariableSafe(inputString) {
+    // Replaces all spaces with underscores and removes
+    // special characters
+    if (!(inputString ?? false)) {
+      return;
+    }
+    inputString = inputString.replaceAll(
+      /[~!@#$%^&*()|+\-=?;:'",.<>{}[]\\\/]/gi,
+      ""
+    );
+    return inputString.replaceAll(" ", "_");
   }
 
   return (
